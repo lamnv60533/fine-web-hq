@@ -7,13 +7,14 @@ const { NAV, VALUES, CONTACTS } = window.FINE_DATA;
 
 const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
   "language": "en",
-  "accent": "#ff8200"
+  "accent": "#ed1c24"
 }/*EDITMODE-END*/;
 
 const ACCENT_MAP = {
-  "#ff8200": "#f68e13", // H&Q-style bright orange (default)
-  "#b78b3a": "#d9b573", // warm gold (audit-firm)
-  "#c0392b": "#e54b3a", // signal red
+  "#ed1c24": "#c01219", // FINE red (brand default)
+  "#ff8200": "#f68e13", // bright orange
+  "#b78b3a": "#d9b573", // warm gold
+  "#4b4735": "#737060", // olive (brand neutral)
   "#2e7d32": "#43a047", // forest
 };
 
@@ -195,7 +196,7 @@ function Tweaks({ tweaks, setTweak }) {
           label="Accent"
           value={tweaks.accent}
           onChange={(v) => setTweak("accent", v)}
-          options={["#ff8200", "#b78b3a", "#c0392b", "#2e7d32"]}
+          options={["#ed1c24", "#ff8200", "#b78b3a", "#4b4735", "#2e7d32"]}
         />
       </TweakSection>
     </TweaksPanel>
