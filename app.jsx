@@ -602,9 +602,9 @@ function Footer({ lang }) {
         </p>
 
         <div className="footer-card reveal">
-          <div className="office">FINE Auditing Limited Liability Company</div>
-          <div className="addr">14 Truong Quyen, Xuan Hoa Ward, Ho Chi Minh City, Vietnam</div>
-          <div className="web">+84 28 818 1608 · www.fineaudit.vn</div>
+          <span className="name">{lang === "en" ? "FINE Auditing Limited Liability Company" : "Công ty TNHH Kiểm toán FINE"}</span>
+          <span className="addr">{lang === "en" ? "14 Truong Quyen, Xuan Hoa Ward" : "14 Trương Quyền, Phường Xuân Hòa"},<br/>{lang === "en" ? "Ho Chi Minh City, Vietnam" : "TP. HCM, Việt Nam"}</span>
+          <span className="web">+84 28 818 1608 · www.fineaudit.vn</span>
 
           <div className="contacts-grid">
             {CONTACTS.map(p => (
