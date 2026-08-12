@@ -262,7 +262,8 @@ function FooterBlock({ lang, compact }) {
                 <circle cx="12" cy="10" r="3"/>
               </svg>
               <span><strong>{lang === "en" ? "Office:" : "Văn phòng:"}</strong>
-              {lang === "en" ? "14 Truong Quyen, Xuan Hoa Ward, Ho Chi Minh City, Vietnam" : "14 Trương Quyền, Phường Xuân Hòa, TP. Hồ Chí Minh, Việt Nam"}</span>
+              <a href="https://www.google.com/maps/place/14+%C4%90.+Tr%C6%B0%C6%A1ng+Quy%E1%BB%81n,+Xu%C3%A2n+H%C3%B2a,+H%E1%BB%93+Ch%C3%AD+Minh+700000/data=!4m2!3m1!1s0x31752f339c0eee2d:0x413d9e3886ec9dc?sa=X&ved=1t:242&ictx=111" target="_blank" rel="noopener noreferrer">
+              {lang === "en" ? " 14 Truong Quyen, Xuan Hoa Ward, Ho Chi Minh City, Vietnam" : " 14 Trương Quyền, Phường Xuân Hòa, TP. Hồ Chí Minh, Việt Nam"}</a></span>
             </li>
             <li>
               <svg className="fi-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
