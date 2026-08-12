@@ -140,7 +140,7 @@ function Drawer({ open, onClose, lang, setLang }) {
 // FormSubmit endpoint — submissions arrive in this inbox.
 // First submission triggers a one-time confirmation email (must be opened
 // from a deployed https:// URL, not file:// or the preview iframe).
-const FORM_ENDPOINT = "https://formsubmit.co/ajax/856160ab949228de2b6fbdfdd7928a0f";
+const FORM_ENDPOINT = "https://formsubmit.co/ajax/info@fineaudit.vn";
 
 function FooterContactForm({ lang }) {
   const [name, setName] = useState("");

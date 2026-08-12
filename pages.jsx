@@ -655,7 +655,7 @@ function PartnersBody({ lang }) {
         <SectionHead title={lang === "en" ? "Our partners" : "Đối tác"} />
         <div className="partners-grid reveal">
           <a className="partner-card" href="https://www.hqco.com.vn/" target="_blank" rel="noopener">
-            <div className="logo-slot">H&amp;Q ADVISORY · MORISON GLOBAL</div>
+            <div className="logo-slot"><img src="assets/H_Q_Morison_Logo.png" alt="H&Q Advisory — Independent member, Morison Global" /></div>
             <h4>H&amp;Q Advisory</h4>
             <div className="role">{lang === "en" ? "Independent Member Morison Global" : "Thành viên Độc lập Morison Global"}</div>
             <p style={{fontStyle:"italic"}}>
@@ -666,15 +666,14 @@ function PartnersBody({ lang }) {
             <span className="visit">Visit hqco.com.vn <span>→</span></span>
           </a>
           <a className="partner-card" href="#" onClick={(e) => e.preventDefault()}>
-            <div className="logo-slot">VIET &amp; CO · LEGAL PARTNER</div>
+            <div className="logo-slot"><img src="assets/NewVietCo.png" alt="Viet &amp; Co" /></div>
             <h4>Viet &amp; Co</h4>
-            <div className="role">{lang === "en" ? "Business Advisor" : "Tư vấn Doanh nghiệp"}</div>
+            <div className="role">{lang === "en" ? "Accounting Firm - Vietnam" : "Accounting Firm - Vietnam"}</div>
             <p>
               {lang === "en"
-                ? "Our trusted legal counsel for entity structuring, FDI advisory and cross-border transactions — ensuring every engagement is grounded in compliant, defensible execution."
-                : "Đối tác pháp lý tin cậy về cơ cấu pháp lý, tư vấn đầu tư nước ngoài và giao dịch xuyên biên giới — đảm bảo mọi dịch vụ tuân thủ và an toàn pháp lý."}
+                ? "Our trusted partner in accounting, legal, foreign investment advisory, and cross-border transactions — ensuring full compliance and legal security across all services."
+                : "Đối tác tin cậy về tư vấn kế toán, tư vấn pháp lý, tư vấn đầu tư nước ngoài và giao dịch xuyên biên giới – đảm bảo mọi dịch vụ tuân thủ và an toàn pháp lý"}
             </p>
-            <span className="visit">{lang === "en" ? "Coming soon" : "Sắp ra mắt"} <span>→</span></span>
           </a>
         </div>
       </div>

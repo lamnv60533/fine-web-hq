@@ -705,6 +705,7 @@ section { padding: 8rem 0; position: relative; }
   color: var(--orange); font-weight: 700; margin-bottom: 0.8rem;
 }
 .team-detail .right h3 {
+  display: table;
   font-size: 3.2rem; font-weight: 800;
   color: var(--blue);
   margin-bottom: 0.8rem;
@@ -712,8 +713,8 @@ section { padding: 8rem 0; position: relative; }
   padding-bottom: 1.4rem;
 }
 .team-detail .right h3::after {
-  content: ""; position: absolute; left: 0; bottom: 0;
-  width: 6rem; height: 0.4rem; background: var(--orange);
+  content: ""; position: absolute; left: 0; right: 0; bottom: 0;
+  height: 0.4rem; background: var(--orange);
 }
 .team-detail .right .quals {
   font-size: 1.4rem; color: var(--gray); font-style: italic;
@@ -829,15 +830,17 @@ section { padding: 8rem 0; position: relative; }
 }
 .partner-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-card-strong); }
 .partner-card .logo-slot {
-  height: 12rem;
-  display: grid; place-items: center;
-  background: repeating-linear-gradient(135deg,
-    var(--bg-soft) 0 12px, #fff 12px 24px);
-  border: 1px dashed var(--gray-soft);
+  height: 14rem;
+  display: flex; align-items: center; justify-content: center;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid var(--line);
+  padding: 1.6rem 2.4rem;
   margin-bottom: 2.5rem;
   font-size: 1.4rem; font-weight: 700;
   letter-spacing: 0.15em; color: var(--gray);
 }
+.partner-card .logo-slot img { display: block; width: auto; height: auto; max-width: 100%; max-height: 100%; object-fit: contain; }
 .partner-card h4 {
   font-size: 2.2rem; font-weight: 800; color: var(--blue); margin-bottom: 0.4rem;
 }

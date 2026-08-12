@@ -206,7 +206,7 @@ function Hero({ lang }) {
                 <span className="orange">Integrity · Fortunate · Everlasting</span>.
               </p>
               <p>
-                Founded in 2006 and led by partners with an average of{" "}
+                Since in 2006 and led by partners with an average of{" "}
                 <span className="orange">17+ years of practice</span>, FINE distinguishes itself
                 through technical excellence and a deep commitment to treating our clients'
                 challenges as our own.
