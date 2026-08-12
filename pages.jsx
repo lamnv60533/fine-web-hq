@@ -57,7 +57,9 @@ function Hero({ lang }) {
                 </>
               ) : (
                 <>
-                  <p>FINE được thành lập là công ty dịch vụ chuyên nghiệp trách nhiệm hữu hạn, cung cấp dịch vụ kiểm toán, kế toán, tư vấn thuế và tư vấn tài chính cho các tổ chức kinh tế thuộc mọi thành phần trên phạm vi cả nước.</p>
+                  <p>Công ty TNHH Kiểm toán FINE được thành lập dưới hình thức công ty trách nhiệm
+                  hữu hạn, chuyên cung cấp dịch vụ kiểm toán, kế toán, tư vấn thuế và tư vấn tài
+                  chính cho các tổ chức kinh tế thuộc mọi thành phần trên phạm vi cả nước.</p>
                   <p>Sứ mệnh của chúng tôi là cung cấp các giải pháp tài chính đáng tin cậy và tốt đẹp nhất, giúp khách hàng ra quyết định đúng đắn, phát triển bền vững và tạo ra giá trị lâu dài — dẫn lối bởi ba giá trị cốt lõi: <span className="values-underline">Chính trực</span> · <span className="values-underline">Thịnh vượng</span> · <span className="values-underline">Trường tồn</span>.</p>
                 </>
               )}
