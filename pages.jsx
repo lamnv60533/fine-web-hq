@@ -356,7 +356,7 @@ function About({ lang }) {
         eyebrow={lang === "en" ? "01 · About Us" : "01 · Về chúng tôi"}
         title={lang === "en" ? "An independent firm built on three core values." : "Công ty độc lập, xây trên ba giá trị cốt lõi."}
         lead={lang === "en"
-          ? "Founded 2006 in Ho Chi Minh City. Audit, tax, accounting and advisory across Vietnam."
+          ? "Since 2006 in Ho Chi Minh City. Audit, tax, accounting and advisory across Vietnam."
           : "Thành lập năm 2006 tại Thành phố Hồ Chí Minh. Dịch vụ kiểm toán, thuế, kế toán và tư vấn trên cả nước."}
       />
       <AboutBody lang={lang} />
