@@ -446,7 +446,7 @@ function TeamBody({ lang }) {
 function Team({ lang }) {
   return (
     <>
-      <PageBannerF
+      <PageBanner
         eyebrow={lang === "en" ? "02 · Our Team" : "02 · Đội ngũ"}
         title={lang === "en" ? "Partners with 17+ years on every engagement." : "Các Giám đốc với 17+ năm kinh nghiệm trong từng dịch vụ."}
         lead={lang === "en"
