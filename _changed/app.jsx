@@ -246,7 +246,7 @@ function WhatWeCanDo({ lang, onOpen }) {
       <div className="wrap">
         <div className="dots-strip reveal" aria-hidden="true"></div>
         <h2 className="section-heading reveal">
-          {lang === "en" ? "What we can do" : "Năng lực dịch vụ"}
+          {lang === "en" ? "What we can do" : "Dịch vụ cung cấp"}
         </h2>
         <p className="section-intro reveal">
           {lang === "en"

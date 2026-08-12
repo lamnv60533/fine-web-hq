@@ -62,16 +62,6 @@ function Hero({ lang }) {
                 </>
               )}
             </div>
-            <div className="hero-cta-row">
-              <a href="our-services.html" className="btn primary">
-                <span>{lang === "en" ? "Our services" : "Dịch vụ"}</span>
-                <span className="arrow">→</span>
-              </a>
-              <a href="contact.html" className="btn">
-                <span>{lang === "en" ? "Contact us" : "Liên hệ"}</span>
-                <span className="arrow">→</span>
-              </a>
-            </div>
           </div>
 
         </div>
@@ -160,7 +150,7 @@ function WhatWeCanDo({ lang, withCta = true }) {
     <section className="core-services" data-screen-label="What We Can Do">
       <div className="wrap">
         <SectionHead
-          title={lang === "en" ? "What we can do" : "Năng lực dịch vụ"}
+          title={lang === "en" ? "What we can do" : "Dịch vụ cung cấp"}
           lead={lang === "en"
             ? "Six disciplines led by partners who stay actively involved in every engagement — from first meeting to final deliverable."
             : "Sáu lĩnh vực dịch vụ được dẫn dắt trực tiếp bởi các Giám đốc — từ buổi gặp đầu tiên đến sản phẩm cuối cùng."}
@@ -220,7 +210,7 @@ function WhatWeCanDoCards({ lang }) {
     <section className="core-services home-svc-cards" data-screen-label="What We Can Do">
       <div className="wrap">
         <SectionHead
-          title={lang === "en" ? "What we can do for you" : "Năng lực dịch vụ"}
+          title={lang === "en" ? "What we can do for you" : "Dịch vụ cung cấp"}
         />
         <div className="home-svc-grid reveal">
           {SERVICES.map(s => (

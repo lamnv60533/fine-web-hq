@@ -261,7 +261,7 @@ function FooterBlock({ lang, compact }) {
                 <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 1 1 18 0z"/>
                 <circle cx="12" cy="10" r="3"/>
               </svg>
-              <span><strong>{lang === "en" ? "Office:" : "Văn phòng:"}</strong> 14 Truong Quyen, Xuan Hoa Ward, Ho Chi Minh City, Vietnam
+              <span><strong>{lang === "en" ? "Office:" : "Văn phòng:"}</strong>
               {lang === "en" ? "14 Truong Quyen, Xuan Hoa Ward, Ho Chi Minh City, Vietnam" : "14 Trương Quyền, Phường Xuân Hòa, TP. Hồ Chí Minh, Việt Nam"}</span>
             </li>
             <li>
