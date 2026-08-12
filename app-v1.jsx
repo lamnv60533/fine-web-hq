@@ -153,7 +153,7 @@ function Hero({ lang }) {
               <span className="arrow">→</span>
             </a>
             <a href="#contact" className="btn">
-              <span>{lang === "en" ? "Contact us" : "Liên hệ"}</span>
+              <span>{lang === "en" ? "Get in touch" : "Liên hệ"}</span>
               <span className="arrow">→</span>
             </a>
           </div>

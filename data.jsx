@@ -297,7 +297,7 @@ const TEAM = [
     photo: "assets/team/Minh.jpg",
     initials: "HM",
     email: "minhnlh@fineaudit.vn",
-    phone: "+84 6267 1168",
+    phone: "+84 86267 1168",
     bio:
       "Mr. Minh has over 19 years of experience in the profession of corporate finance, financial advisory, tax and accounting advisory. His extensive experience affords him the ability to assist clients in maximizing tax benefits and minimizing clients' tax obligations. He also concentrates on finance management and M&A processes.",
     bio_vn:
@@ -409,7 +409,7 @@ const CONTACTS = [
     name_vn: "Ông Nguyễn Lê Hoàng Minh",
     role: "Advisory Director",
     role_vn: "Giám đốc Tư vấn",
-    phone: "+84 6267 1168",
+    phone: "+84 86267 1168",
     email: "minhnlh@fineaudit.vn",
   },
   {

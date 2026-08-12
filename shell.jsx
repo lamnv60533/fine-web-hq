@@ -305,7 +305,7 @@ function FooterBlock({ lang, compact }) {
           {!compact && (
           <div className="footer-contact-form">
             <div className="footer-getintouch-head">
-              <h3>{lang === "en" ? "Contact us" : "Liên hệ với chúng tôi"}</h3>
+              <h3>{lang === "en" ? "Get in touch" : "Liên hệ với chúng tôi"}</h3>
               <p>{lang === "en"
                 ? "Send us a message and we'll respond within one business day."
                 : "Gửi tin nhắn cho chúng tôi — phản hồi trong vòng một ngày làm việc."}</p>
