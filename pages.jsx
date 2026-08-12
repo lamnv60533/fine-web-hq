@@ -287,8 +287,7 @@ function AboutBody({ lang }) {
           <div className="about-img">
             <img className="since-logo" src="assets/site/fine-logo.png" alt="FINE Auditing" />
             <div className="stamp">
-              <div className="l1">{lang === "en" ? "Independent · Vietnam" : "Độc lập · Việt Nam"}</div>
-              <div className="l2">FINE Auditing Limited Liability Company</div>
+              <div className="l2">{lang === "en" ? "FINE Auditing Limited Liability Company" : "Công ty TNHH Kiểm toán FINE"} </div>
               <div className="l3">{lang === "en" ? "Audit · Tax · Accounting · Advisory" : "Kiểm toán · Thuế · Kế toán · Tư vấn"}</div>
             </div>
           </div>
@@ -354,10 +353,10 @@ function About({ lang }) {
     <>
       <PageBanner
         eyebrow={lang === "en" ? "01 · About Us" : "01 · Về chúng tôi"}
-        title={lang === "en" ? "An independent firm built on three core values." : "Công ty độc lập, xây trên ba giá trị cốt lõi."}
+        title={lang === "en" ? "An independent firm built on three core values." : "Công ty kiểm toán độc lập, xây dựng trên ba giá trị cốt lõi."}
         lead={lang === "en"
           ? "Since 2006 in Ho Chi Minh City. Audit, tax, accounting and advisory across Vietnam."
-          : "Thành lập năm 2006 tại Thành phố Hồ Chí Minh. Dịch vụ kiểm toán, thuế, kế toán và tư vấn trên cả nước."}
+          : "Dịch vụ kiểm toán, thuế, kế toán và tư vấn trên cả nước."}
       />
       <AboutBody lang={lang} />
     </>
@@ -447,7 +446,7 @@ function TeamBody({ lang }) {
 function Team({ lang }) {
   return (
     <>
-      <PageBanner
+      <PageBannerF
         eyebrow={lang === "en" ? "02 · Our Team" : "02 · Đội ngũ"}
         title={lang === "en" ? "Partners with 17+ years on every engagement." : "Các Giám đốc với 17+ năm kinh nghiệm trong từng dịch vụ."}
         lead={lang === "en"

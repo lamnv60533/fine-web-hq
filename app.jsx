@@ -150,16 +150,6 @@ function Hero({ lang }) {
                 ? "Independent professional services firm — audit, tax, accounting & advisory across Vietnam since 2006."
                 : "Công ty dịch vụ chuyên nghiệp độc lập — kiểm toán, thuế, kế toán & tư vấn trên phạm vi cả nước từ năm 2006."}
             </p>
-            <div className="hero-cta-row">
-              <a href="#services" className="btn primary">
-                <span>{lang === "en" ? "Our services" : "Dịch vụ"}</span>
-                <span className="arrow">→</span>
-              </a>
-              <a href="#contact" className="btn">
-                <span>{lang === "en" ? "Contact us" : "Liên hệ"}</span>
-                <span className="arrow">→</span>
-              </a>
-            </div>
           </div>
 
           <aside className="hero-img-box" aria-label="FINE values">
@@ -246,7 +236,7 @@ function WhatWeCanDo({ lang, onOpen }) {
       <div className="wrap">
         <div className="dots-strip reveal" aria-hidden="true"></div>
         <h2 className="section-heading reveal">
-          {lang === "en" ? "What we can do" : "Năng lực dịch vụ"}
+          {lang === "en" ? "What we can do" : "Dịch vụ cung cấp"}
         </h2>
         <p className="section-intro reveal">
           {lang === "en"

@@ -535,8 +535,8 @@ function Contact({ lang }) {
         <div className="contact-grid">
           <div>
             <div className="contact-office">
-              <span className="name">FINE Auditing Limited Liability Company</span>
-              <span className="addr">14 Truong Quyen, Xuan Hoa Ward,<br/>Ho Chi Minh City, Vietnam</span>
+              <span className="name">{lang === "en" ? "FINE Auditing Limited Liability Company" : "Công ty TNHH Kiểm toán FINE"}</span>
+              <span className="addr">{lang === "en" ? "14 Truong Quyen, Xuan Hoa Ward" : "14 Trương Quyền, Phường Xuân Hòa"},<br/>{lang === "en" ? "Ho Chi Minh City, Vietnam" : "TP. HCM, Việt Nam"}</span>
               <span className="web">+84 28 818 1608 · www.fineaudit.vn</span>
             </div>
             <a className="btn" style={{ background: "var(--gold)", borderColor: "var(--gold)", color: "var(--ink)" }} href="mailto:chauntm@fineaudit.vn">
