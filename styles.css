@@ -1042,7 +1042,11 @@ section { padding: 8rem 0; position: relative; }
   opacity: 0;
   transform: translateY(28px);
   transition: opacity 0.8s ease-out, transform 0.8s cubic-bezier(.2,.7,.2,1);
-  will-change: opacity, transform;
+  /* No `will-change` here on purpose. Every section, card, and the 24-cell
+     logo grid carries `.reveal`; a permanent `will-change` on that many
+     elements exhausts the mobile GPU compositor and leaves blank white
+     patches at the end of the page on phones. The transition animates fine
+     without the hint. */
 }
 .reveal.in { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) {
@@ -2208,7 +2212,9 @@ section { padding: 8rem 0; position: relative; }
   .brand-logo { height: 5rem; }
   .nav { display: none; }
   .menu-btn { display: inline-flex; align-items: center; gap: 0.8rem; font-size: 1.3rem; }
-  .lang-toggle { display: none; }
+  /* Keep the EN/VN toggle in the header on mobile; group it with the menu
+     button on the right. */
+  .lang-toggle { display: flex; margin-left: auto; margin-right: 1.2rem; }
 
   /* Hero — smaller, single column */
   .hero { padding-top: 10rem; padding-bottom: 5rem; }
