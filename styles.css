@@ -637,7 +637,7 @@ section { padding: 8rem 0; position: relative; }
   position: relative;
   aspect-ratio: 3 / 4;
   overflow: hidden;
-  background: var(--bg-soft);
+  background: #fbfbfc;
 }
 .team-photo-wrap img {
   width: 100%; height: 100%;

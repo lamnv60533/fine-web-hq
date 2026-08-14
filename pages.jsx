@@ -407,7 +407,7 @@ function TeamBody({ lang }) {
             <div className="right">
               <div className="role-up">{lang === "en" ? TEAM[sel].role : TEAM[sel].role_vn}</div>
               <h3>{lang === "en" ? TEAM[sel].name : TEAM[sel].name_vn}</h3>
-              <div className="quals">{TEAM[sel].quals}</div>
+              <div className="quals">{lang === "en" ? TEAM[sel].quals : (TEAM[sel].quals_vn || TEAM[sel].quals)}</div>
               <p>{lang === "en" ? TEAM[sel].bio : TEAM[sel].bio_vn}</p>
               <div className="contact-row">
                 <div>
@@ -681,7 +681,7 @@ function Partners({ lang }) {
     <>
       <PageBanner
         eyebrow={lang === "en" ? "04 · Partners" : "04 · Đối tác"}
-        title={lang === "en" ? "An international network. Local expertise." : "Mạng lưới quốc tế. Chuyên môn địa phương."}
+        title={lang === "en" ? "An international network - Multi-sector expertise" : "Mạng lưới quốc tế - Khách hàng đa lĩnh vực"}
       />
       <PartnersBody lang={lang} />
       <ClientsBody lang={lang} />
